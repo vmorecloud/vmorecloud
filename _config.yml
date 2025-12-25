@@ -1,0 +1,31 @@
+title: Cloud & Virtualization Knowledge Base
+description: Practical Hyper-V, Windows Server, Proxmox, and cloud infrastructure guides based on real-world experience.
+url: https://vmorecloud.github.io
+baseurl: /vmorecloud-hyperv-guides
+
+author:
+  name: vMoreCloud
+  url: https://www.vmorecloud.com
+
+theme: minima
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+seo:
+  type: Website
+
+social:
+  name: vMoreCloud
+  links:
+    - https://www.vmorecloud.com
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
